@@ -18,7 +18,7 @@ def binary_search(n, x, first, last):
     
     mid = (first + last) // 2
 
-    if n[mid] == x:
+    if n[mid] == x: 
         return True
     elif n[mid] > x:
         return binary_search(n, x, first, mid - 1)
