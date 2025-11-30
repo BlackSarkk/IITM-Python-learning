@@ -1,16 +1,8 @@
 
 
-def delete_first_three(l: list) -> None:
-    '''
-    Given a list, delete the first three elements in the list.
+'''
+Write a recursive function named reverse that accepts a list L as argument and returns the reversed list.
 
-    Arguments:
-    l: list - a list of elements.
-
-    Return: None - the list is modified in place.
-    '''
-    
-    
-    del l[:3]
-    
+You do not have to accept input from the user or print output to the console. You just have to write the function definition.
+'''
 

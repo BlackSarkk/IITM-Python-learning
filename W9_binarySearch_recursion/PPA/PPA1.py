@@ -1,17 +1,3 @@
 
-def reverse_first_half(t: tuple) -> tuple:
-    '''
-    Given an even-length tuple, return a new tuple where the first half 
-    is reversed, and the second half remains unchanged.
-
-    Arguments:
-    t: tuple - an even-length tuple.
-
-    Return: tuple - a new tuple with the first half reversed.
-    '''
-    
-    
-    mid = len(t) // 2
-    return t[:mid][::-1] + t[mid:]
-    
-
+# Write a recursive function named triangular that accepts a positive integer n as argument and returns the sum of the first n positive integers.
+# You do not have to accept input from the user or print the output to the console. You just have to write the function definition.

@@ -1,27 +1,4 @@
-
-def create_indexed_dict(items: list) -> dict:
-    '''
-    Given a list of items, create a dictionary with the indices as keys and the items as items.
-
-    Args:
-        items (list): A list of items.
-
-    Returns:
-        dict: A dictionary with indices as keys and items as items.
-    '''
-    
-    
-    # basic approach
-    d = {}
-    for i in range(len(items)):
-        d[i] = items[i]
-    return d
-
-    # other approaches
-    
-    # using comprehensions
-    # return {i: item for i, item in enumerate(items)}
-    
-    # functional
-    # return dict(enumerate(items))
-    
+'''
+Write a recursive function named non_decreasing that accepts a non-empty list L of integers as argument and returns True if the elements are sorted in non-decreasing order from left to right, and False otherwise.
+You do not have to accept input from the user or print the output to the console. You just have to write the function definition.
+'''

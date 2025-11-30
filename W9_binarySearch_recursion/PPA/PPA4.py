@@ -1,24 +1,9 @@
+'''
+Consider a positive integer x that is a power of 2. The logarithm of x to the base 2 is the number of times 2 has to be multiplied with itself so get x, and is denoted by log2(x). For example, log2(4)=2. Note that log2(1)=0.
 
-def most_occuring_first_letter(passage: str) -> str:
-    '''
-    Returns the letter which occurs most frequently 
-    as the first letter of any word.(case insensitive)
-
-    Args:
-        passage (str): A multi-line string representing the passage.
-
-    Returns:
-        str: The most frequently occurring first letter in lowercase.
-    '''
-    
-    
-    first_letter_counts = {}
-    for word in passage.lower().split(): 
-        first_letter = word[0]
-        if first_letter not in first_letter_counts:
-            first_letter_counts[first_letter] = 0
-        first_letter_counts[first_letter] += 1
-
-    return max(first_letter_counts, key=first_letter_counts.get)
-    
-
+Write a recursive function named logarithm that accepts this positive integer x as argument and returns log2(x).
+(1) Each test case will be a power of 
+(2) Use of Python's standard libraries is not allowed for this problem.
+(3) You do not have to accept input from the user or print the output to the console. You just have to write the function definition.
+(4) Note that the logarithm is also defiend for numbers which are not powers of 2. We have restricted it to powers of 2 so as to keep things simple.  
+'''
