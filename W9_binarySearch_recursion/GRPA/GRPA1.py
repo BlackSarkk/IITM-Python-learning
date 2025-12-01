@@ -6,3 +6,11 @@ Write a recursive function named reverse that accepts a list L as argument and r
 You do not have to accept input from the user or print output to the console. You just have to write the function definition.
 '''
 
+def reverse(L):
+    if len(L) <= 1:
+        return L
+    else:
+        return [L[-1]] + reverse(L[:-1])
+
+
+print(reverse([1, 2, 3, 4, 5, 6]))
