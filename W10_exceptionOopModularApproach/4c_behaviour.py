@@ -1,5 +1,5 @@
 
-# In previous code, init and display both arnt adding any behaviour 
+# In previous code, init and display both arnt adding any behaviour, init was specifying the value and display was printing the value
 # So we'll try adding some behaviour to the previous code
 
 class Student:
