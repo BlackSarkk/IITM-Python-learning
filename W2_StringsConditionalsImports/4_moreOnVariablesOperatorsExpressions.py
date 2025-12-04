@@ -12,6 +12,7 @@
 # a_ = 3   # valid
 #? Variable names are case sensitive
 
+# Variable name cant start with @ and _
 
 
 #* Multiple Assignment (have to bit careful while using this)
