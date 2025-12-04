@@ -50,8 +50,8 @@ import pandas as pd
 scores = pd.read_csv('scores.csv')
 
 # print(scores)
-# print(scores.shape)  # --> tuple
-# print(scores.count)  
+# print(scores.shape())  # --> tuple
+# print(scores.count())  
 
 # print(scores['Total'].max())
 # print(scores['Total'].min())
