@@ -1,2 +1,2 @@
 # IITM-Python-learning
-This is where i am keeping all my python notes of my academics
+This is where i am keeping all my python notes from my academics
